@@ -2,17 +2,19 @@
 Blossom | BitHacks 2020
 
 """
-#libraries
+#imports
 import numpy as np
 from flask import Flask, request
 from twilio.twiml.messaging_response import MessagingResponse
 
+#create app using current program
 app = Flask(__name__)
 
+#sets app to run on localhost:5000
 @app.route("/", methods=['GET', 'POST'])
 
 def incoming_sms():
-    # Start our TwiML response
+    # start TwiML response
     resp = MessagingResponse()
 
     tasks = []
@@ -34,6 +36,7 @@ def incoming_sms():
     pri = False
     sched_filled = False
     
+    #request message sent to number
     body = request.values.get('Body', None)
 
     if body == 'hello':

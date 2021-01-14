@@ -37,5 +37,16 @@ We wrote a application to be a prototype of how the application would work. The 
 ![image 5](https://taikai.azureedge.net/Q8GQ62Qgo4EC_I0t_RYAIoxsIQiotnHtJ_xEJLagYfQ/rs:fit:800:0:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3RhaWthaS1zdG9yYWdlL2ltYWdlcy9hM2I2ZTg5MC1iNzg4LTExZWEtOWQxOC1kZmZiNDNmOGNkOGVCbG9zc29tIF8gQml0SGFja3MgMjAyMCAoNSkucG5n)
 
 ### how to run
-Download or copy the Python script in the file ```blossom.py``` and run in on your local computer. 
-- Use the commmand 
+Download or copy the Python script in the file ```blossom.py``` and run in on your local computer. Once you run the program:
+- Use the command 'add' to create a new task to your to-do list.
+- Use the command 'show' to display all your current tasks.
+- Use the command 'schedule' to order your tasks based on your preferred priority.
+- Use the command 'feedback' to give the program feedback on how it generated your schedule and help it align to your preferences.
+- Use the command 'reset' to start from the beginning.
+
+### contributers
+Rida Faraz [@rfaraz](https://github.com/rfaraz)
+Sahana Moogi [@ssmoogi](https://github.com/ssmoogi)
+
+
+🌸 Thank you for checking out our project repo!!

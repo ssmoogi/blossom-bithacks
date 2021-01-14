@@ -31,7 +31,7 @@ Through our application, users will be able to easily input their tasks and goal
 ![image 4](https://taikai.azureedge.net/dl6S63pS0DfiHH-iDzWM3nlUEuS36JsmWsMcumR7Jmw/rs:fit:800:0:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3RhaWthaS1zdG9yYWdlL2ltYWdlcy82ZGE5YTBkMC1iNzg4LTExZWEtOWQxOC1kZmZiNDNmOGNkOGVCbG9zc29tIF8gQml0SGFja3MgMjAyMCAoNCkucG5n)
 
 ### code
-We wrote a application to be a prototype of how the application would work. The program takes in certain input (in the future we'd use Natural Language Processing to improve upon this), and based on that creates a schedule based on tasks inputted. The AI/ML section happens when the user enters the 'feedback' command, and that processes the user's preferred version of the schedule and adjusts the weighting give to the three main attributes: duration, difficulty, and priority. We created two versions, one that runs in the console (blossom.py) which you can download and run, and one that works with Twilio/Flask to create a chat bot through messaging (blossom-text.py).
+We wrote a application to be a prototype of how the application would work. The program takes in certain input (in the future we'd use Natural Language Processing to improve upon this), and based on that creates a schedule based on tasks inputted. The AI/ML section happens when the user enters the 'feedback' command, and that processes the user's preferred version of the schedule and adjusts the weighting give to the three main attributes: duration, difficulty, and priority. We created two versions, one that runs in the console (```blossom.py```) which you can download and run, and one that works with Twilio/Flask to create a chat bot through messaging (```blossom-text.py```).
 
 ### twilio/flask/ngrok screenshots
 ![image 5](https://taikai.azureedge.net/Q8GQ62Qgo4EC_I0t_RYAIoxsIQiotnHtJ_xEJLagYfQ/rs:fit:800:0:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3RhaWthaS1zdG9yYWdlL2ltYWdlcy9hM2I2ZTg5MC1iNzg4LTExZWEtOWQxOC1kZmZiNDNmOGNkOGVCbG9zc29tIF8gQml0SGFja3MgMjAyMCAoNSkucG5n)
@@ -45,7 +45,7 @@ Download or copy the Python script in the file ```blossom.py``` and run in on yo
 - Use the command 'reset' to start from the beginning.
 
 ### contributers
-Rida Faraz [@rfaraz](https://github.com/rfaraz)
+Rida Faraz [@rfaraz](https://github.com/rfaraz) \
 Sahana Moogi [@ssmoogi](https://github.com/ssmoogi)
 
 
